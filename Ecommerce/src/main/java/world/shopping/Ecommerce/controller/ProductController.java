@@ -11,7 +11,7 @@ import world.shopping.Ecommerce.services.ProductService;
 import java.util.List;
 
 @RestController
-//@NoArgsConstructor
+@NoArgsConstructor
 @AllArgsConstructor
 @RequestMapping("/api/v1/product")
 public class ProductController {
