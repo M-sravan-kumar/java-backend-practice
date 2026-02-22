@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: world
+  datasource:
+    url: jdbc:mysql://localhost:3306/world
+    username: root
+    password: sra1kumar
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
